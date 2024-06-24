@@ -87,7 +87,7 @@ function Message({ count }) {
 function Footer({ creator }) {
     return (
         <h4>
-            Designed by {creator.firstName} {creator.lastName}
+            Designed with love by {creator.firstName} {creator.lastName}
         </h4>
     );
 }
